@@ -1,0 +1,12 @@
+ Pílulas de conhecimento - Como criar uma aplicação mínima com express, entendendo os verbos HTTP e trabalhando com headers, query, params e body
+
+ 1: inicia a aplicação:
+   - npm init -y === npm init --yes
+ 2: inicia o express:
+   - npm i express
+ 3: instalar e configurar no packege.json o nodemon para a aplicação rodar de forma automatica
+   - npm i nodemon -D
+ 4: criar o arquivo que estara as configurações do express
+
+
+ Uma API serve para pegar informações que fica no back-end e retornar pra quem fez a requisição. Pode ser um site, uma outra api, meu navegador...
