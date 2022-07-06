@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true, //formata automaticamente
+  "editor.tabSize": 2, // coloca 2 espaço
+  "editor.detectIndentation": false, //força a operação de colocar 2 espaços
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  } // formata para o eslint formatar as coisas pra mim, e não o vscode
+}

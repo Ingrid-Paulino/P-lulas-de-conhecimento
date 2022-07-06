@@ -1,0 +1,23 @@
+Pílulas de conhecimento - Como configurar um projeto Express com Debugger e o ESLint da Trybe
+
+ 1: inicia a aplicação:
+   - npm init -y === npm init --yes
+ 2: inicia o express:
+   - npm i express
+ 3: instalar e configurar no packege.json o nodemon para a aplicação rodar de forma automatica
+   - npm i nodemon -D
+     - "start": "nodemon --watch src/index.js"
+       - --watch é para a minha aplicação não ficar reiniciando sem necessidade no caso de anterações feitas fora da minha pasta src
+ 4: criar o arquivo que estara as configurações do express
+ 5: configuração do debug:
+   - cria o diretorio .vscode na raiz do projeto
+   - dentro da pasta vscode cria o arquivo launch.json
+    - clica qm add configuration
+    - ctrl + espaço e clique en Node.js: Launch via npm
+    - no runtimeArgs vai esta debug coloque o comando que vc estiver usando no stript para rodar a aplicação
+    - em name: coloque o mesmo comando que vc esta usando para rodar a aplicação
+    - depois é so salvar e está pronto
+ 6: instalar o ESLint:
+    - npm add -D eslint eslint-config-trybe-backend
+    - cria o arquivos do eslint
+    - adicionar no arquivo o extends
